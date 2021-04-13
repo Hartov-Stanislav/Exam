@@ -79,5 +79,6 @@ int main()
         return 1;
     }
     printf("%s has been converted successfully to %d", userNumber, convertNumber(userNumber));
+    free(userNumber);
     return 0;
 }
